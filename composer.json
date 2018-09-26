@@ -7,7 +7,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Creativestyle\\UrlRewrite\\": ""
+            "MageSuite\\UrlRewrite\\": ""
         }
     }
 }
