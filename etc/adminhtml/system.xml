@@ -4,6 +4,7 @@
         <section id="web" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
             <group id="custom_rewrites" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Custom URL Rewrites</label>
+                <fieldset_css>cs-csfeature__logo</fieldset_css>
                 <field id="rewrites" translate="label" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>List of rewrites</label>
                     <comment>Provide one rewrite per line in format: "{original_path}|{target_path}|{status_code}" {status_code} is optional and will default to 301.</comment>
